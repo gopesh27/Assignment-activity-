@@ -5,7 +5,7 @@
 
 
 CODE:
-
+```
 #include <stdio.h>
 int main() 
 
@@ -35,14 +35,14 @@ int start, end, i, j, isPrime;
 
     return 0;
 }
-
+```
 OUTPUT:
-
+```
 Enter two numbers: 10 30
 
 Prime numbers between 10 and 30 are:
 11 13 17 19 23 29
-
+```
 
 2.QUESTION
 
@@ -51,7 +51,7 @@ Write a c program to count the number of digits in a number.
 
 CODE:
 
-
+```
 
 #include <stdio.h>
 int main()
@@ -85,20 +85,20 @@ int main()
 }
    
     
-
+```
 
 OUTPUT:
-
+```
 Enter a number: 12345
 
 Number of digits = 5
-
+```
 3.QUESTION
 
 Write a c program to print the alphabet S in n x n matrix.
 
 CODE:
-
+```
 #include <stdio.h>
 int main() 
     {
@@ -126,9 +126,9 @@ int main()
 
     return 0;
 }
-    
+```
 OUTPUT:
-
+```
 Example (n=7)
 
 * * * * * * *
@@ -139,11 +139,11 @@ Example (n=7)
             *
 * * * * * * *
 
-
+```
 4.QUESTION
 
 Write a c program to print the pyramid pattern.
-
+```
     *
 
   ***
@@ -151,10 +151,10 @@ Write a c program to print the pyramid pattern.
  *****
 
 *******
-
+```
 
 CODE:
-
+```
 #include <stdio.h>
 int main() {
 
@@ -177,15 +177,15 @@ int main() {
 
     return 0;
 }
-    
+  ```  
 OUTPUT:
-
+```
 
    *
   ***
  *****
 *******
-
+```
    
 
 
@@ -194,7 +194,7 @@ OUTPUT:
 Write a c program to find GCD of two numbers using loop.
 
 CODE:
-
+```
 #include <stdio.h>
 int main() {
 
@@ -217,9 +217,10 @@ int main() {
      return 0;
 }
 
-
+```
 OUTPUT:
-
+```
 Enter two numbers: 12 18
 
 GCD = 6
+```
